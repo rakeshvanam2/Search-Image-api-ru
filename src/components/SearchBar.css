@@ -1,0 +1,43 @@
+.search-bar {
+  display: flex; /* Added this to make the form and button appear in the same line */
+  justify-content: space-between; /* Added this to space out the input and button */
+  align-items: center; /* Added this to center the items vertically */
+  border: 1px solid lightgray;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  margin: 1rem 0 2rem;
+  width: 60%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.search-bar form {
+  flex: 1; /* Added this to make the form take up remaining space */
+  display: flex; /* Added this to make the input and button appear in the same line */
+}
+
+.search-bar form input {
+  flex: 1; /* Added this to make the input take up remaining space */
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  border: none;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+}
+
+.search-bar form input:focus {
+  outline: none;
+}
+
+.search-bar form button {
+  margin-left: 1.5rem; /* Added this to add some space between the input and button */
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  background-color: #007bff; /* Customize the button background color as needed */
+  color: white; /* Customize the button text color as needed */
+  padding: 0.5rem 1rem; /* Customize the button padding as needed */
+  border-radius: 0.5rem; /* Customize the button border radius as needed */
+}
